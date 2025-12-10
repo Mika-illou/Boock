@@ -1,0 +1,129 @@
+
+        .hero-banner {
+            background-color: #bbe5e1;
+            padding: 50px 40px;
+            border-radius: 10px;
+        }
+
+        .hero-img {
+            max-width: 350px;
+        }
+
+        .right-banner {
+            background-color: #f7d3d8;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .category-btn {
+           border: 1px solid  black;
+            padding: 15px;
+            cursor: pointer;
+            /* transition: 0.2s; */
+        }
+        .category-btn:hover{
+            background-color: white;
+            color: red;
+        }
+        .category-btn:hover i{
+            background-color: rgb(238, 17, 17);
+            color: white;
+            border: none;
+        }
+       
+        
+        .category-btn i{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            border: 1px solid  black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFE;
+        } 
+/*         
+        .category-btn i:hover{
+            background-color: red;
+            color: white;
+        }
+
+        .category-btn:hover {
+            background-color: white;
+            color: red;
+        } */
+        nav a{
+            text-decoration: none;
+        }
+        .tiret_rouge{
+            border-bottom: 2px red solid !important;
+            padding-bottom: 2px !important;
+        }
+        .col-fond{
+            background-color: #F4F3ED;
+        }
+        .livre_fond{
+            background-color: #F5F5F5;
+        }
+
+
+
+
+
+
+
+
+
+    .product-img:hover {
+        transform: scale(1.05);
+        transition: 0.4s ease;
+     }
+
+
+
+
+
+
+
+
+        .newsletter-box {
+            background-color: #f2b6b9; 
+            color: white;
+            width: 100%;
+            height: 300px;
+        }
+        .newsletter-box input {
+            border: none;
+            background-color:#f2b6b9 ;
+            color: white;
+        }
+        .placeholder{
+            color: white;
+        }
+
+
+
+
+
+
+
+footer h5 {
+  text-transform: capitalize;
+  font-weight:700;
+}
+footer p {
+  margin-bottom: 6px;
+  color:#555;
+}
+
+
+
+@media (max-width:425px) {
+    .hero-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img{
+        width: 300px;
+    }
+}
