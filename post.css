@@ -1,0 +1,141 @@
+.banner {
+    margin-top: 70px;
+    }
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline red;
+    color: red !important;
+
+}
+.banner {
+    background-image: url("./image/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.categories ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.categories ul li:hover {
+    color: #dc3545;
+}
+
+.carde {
+  border: 2px solid black;
+  background-color: #E1E0DA !important;
+}
+
+.carde_1 {
+  border: 1px solid black;
+}
+.carde_1:hover{
+    background-color: red;
+    color: white;
+}
+
+.carton {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: red;
+}
+
+.carton1 {
+  border: 1px solid black !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.carton1:hover {
+  background-color: red;
+  color: white;
+}
+
+
+.zoom-hover:hover {
+    transform: scale(1.02);
+}
+
+.icoin_bas{
+    cursor: pointer;
+}
+.nav_menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: cente ;
+    text-align: center !important;
+    width: 100%;
+    
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .grand_photo img {
+        height: 400px !important;
+    }
+
+    .carre_image img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .grand_photo img {
+        height: 300px !important;
+    }
+
+    .carre_image {
+        margin-bottom: 15px;
+    }
+
+    .carre_image img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navigation-section>div {
+        text-align: center !important;
+    }
+}
+
+@media (max-width:768px) {
+    .ARTICLE {
+        display: none;
+    }
+    .cache {
+        display: none;
+    } 
+}
+@media (max-width:425px) {
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 270px;
+    }
+    .cache_menu{
+        display: none !important;
+    }
+    .main {
+    margin-top: 0;
+}
+}
+
+
+
+

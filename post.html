@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="post.css">
+
+</head>
+
+<body>
+
+    <div class="position-fixed top-0 vw-100 z-2">
+        <header class="container-fluid py-3 border-bottom bg-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="cache_menu d-flex align-items-center border-bottom" style="width: 250px;">
+                    <input type="text" class="form-control border-0" placeholder="Search books...">
+                    <i class="bi bi-search ms-2"></i>
+                </div>
+                <h3 class="fw-bold m-0 d-none d-md-block">BOOTIN</h3>
+                <div class="cache_menu d-flex gap-4">
+                    <i class="bi bi-heart me-3 position-relative">
+                        <span
+                            class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle">3</span>
+                    </i>
+                    <i class="bi bi-bookmark position-relative">
+                        <span
+                            class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle">0</span>
+                    </i>
+                    <i class="bi bi-person-fill"></i>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-md bg-white">
+                <div class="container-fluid px-0">
+                    <h3 class="fw-bold m-0 d-md-none">BOOTIN</h3>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="nav_menu collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-underline text-danger" href="post.html">Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="banner">
+        Post
+    </div>
+
+   
+    <section class="container-fluid bg-white px-5 py-4">
+        <div class="row g-5">
+
+            <!-- Colonne GAUCHE (25%)-->
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="w-100">
+
+                    <div class="input-group post searchbar mb-4">
+                        <input type="text" placeholder="Search books..."
+                            class="form-control shadow-none p-3 border-0 border-bottom border-2">
+
+                        <button class="btn bg-danger border-0 border-bottom border-2" type="button">
+                            <i class="bi bi-search fs-4 text-white"></i>
+                        </button>
+                    </div>
+
+                    <h2 class="borda1">Categories</h2>
+                    <p>Fashion (7)</p>
+                    <p>Life Style (7)</p>
+                    <p>Men (7)</p>
+                    <p>News (12)</p>
+                    <p>Travel (7)</p>
+
+                    <h2 class="borda1 mt-4">Recent Posts</h2>
+
+                    <!-- recent posts -->
+                    <div class="d-flex gap-3 w-100">
+                        <img src="./image/blog.jpg" class=" w-50" alt="">
+                        <div>
+                            <h4 class="fs-5 lh-sm fst-italic">May 30. 2018</h4>
+                            <p class="text-danger-subtle">Kook news missed this week.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 my-2">
+                        <img src="./image/blog2.jpg" class=" w-50" alt="">
+                        <div>
+                            <h4 class="fs-5 lh-sm fst-italic">May 30. 2018</h4>
+                            <p class="text-danger-subtle">Book fashion for children</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                        <img src="./image/blog3.jpg" class=" w-50" alt="">
+                        <div>
+                            <h4 class="fs-5 lh-sm fst-italic">May 30. 2018</h4>
+                            <p class="text-danger-subtle">Walk Around With Streetwear</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <img src="./image/blog4.jpg" class=" w-50" alt="">
+                        <div>
+                            <h4 class="fs-5 lh-sm fst-italic">May 30. 2018</h4>
+                            <p class="text-danger-subtle">Walk Around With Streetwear</p>
+                        </div>
+                    </div>
+
+                    <h2 class="borda1 mt-4">Archives</h2>
+                    <p>May 2018</p>
+                    <p>April 2017</p>
+                    <p>November 2016</p>
+
+                    <h2 class="borda1 mt-4">Tags</h2>
+
+                    <!-- tags -->
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex gap-2">
+                            <div class="carde_1 p-3 w-100 text-center">Classic</div>
+                            <div class="carde_1 p-3 w-100 text-center">Horror</div>
+                            <div class="carde_1 p-3 w-100 text-center">Kids</div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <div class="carde_1 p-3 w-100 text-center">Men</div>
+                            <div class="carde_1 p-3 w-100 text-center">Trend</div>
+                            <div class="carde_1 p-3 w-100 text-center">Woman</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <img src="./image/Image6.jpg" class="img-fluid zoom-hover" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne DROIT (75%) -->
+            <div class="col-12 col-md-8 col-lg-9">
+
+                <div class="row g-4">
+                    <img src="./image/post.jpg" alt="" class="img-fluid">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-2 img-item">
+                            <img src="./image/post.jpg" alt="" class="img-fluid zoom-hover">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-2 img-item">
+                            <img src="./image/post2.jpg" alt="" class="img-fluid zoom-hover">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-2 img-item">
+                            <img src="./image/post3.jpg" alt="" class="img-fluid zoom-hover">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 deux mt-4">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h4 class="text-danger">Previous article</h4>
+                            <p>Post format audio blogs</p>
+                        </div>
+                        <div>
+                            <h4 class="text-danger">Next article</h4>
+                            <p>Post format audio blogs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="mt-4">Leave a Reply</h1>
+                <p>Your email address will not be published.</p>
+
+                <!-- comment form -->
+                <div class="bg-white border-0">
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control bg-secondary-subtle textra shadow-none" placeholder="comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-12 col-sm-4">
+                            <input type="text" class="form-control bg-secondary-subtle p-3 shadow-none"
+                                placeholder="First name">
+                        </div>
+                        <div class="col-12 col-sm-4 mt-3 mt-sm-0">
+                            <input type="email" class="form-control bg-secondary-subtle p-3 shadow-none"
+                                placeholder="Email">
+                        </div>
+                        <div class="col-12 col-sm-4 mt-3 mt-sm-0">
+                            <input type="text" class="form-control bg-secondary-subtle p-3 shadow-none"
+                                placeholder="Website">
+                        </div>
+                    </div>
+
+                    <button class="btn btn-danger btn-lg p-3 rounded-0">
+                        Post comment
+                    </button>
+                </div>
+            </div>
+
+            <!-- pagination -->
+            <div class="container-fluid mt-5">
+                <div class="d-flex gap-3 justify-content-center">
+                    <span class="carton d-flex justify-content-center align-items-center">1</span>
+                    <span class="carton1 d-flex justify-content-center align-items-center">2</span>
+                    <span class="carton1 d-flex justify-content-center align-items-center">3</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer--->
+     <footer class="container-fluid p-5 py-5 mt-5" style="background-color: #BABBBC;">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="mb-3">contact us</h5>
+                <hr class="mt-0" style="width:60px; height:2px; background:#b77a6b;">
+                <div class="d-flex gap-2">
+                    <i class="bi bi-geo-alt-fill fs-4"></i>
+                    <p>1998 Wall Street 707,<br> Washington DC, USA</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <i class="bi bi-envelope fs-4"></i>
+                    <p>bookmart@domain.com<br> support@gmail.com</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <i class="bi bi-telephone fs-4"></i>
+                    <p>(84) 0123456789</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="mb-3">Information</h5>
+                <hr class="mt-0" style="width:60px; height:2px; background:#b77a6b;">
+                <p class="mt-4">Contact Us</p>
+                <p class="mt-4">Site Map</p>
+                <p class="mt-4">Privacy Policy</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="mb-3">My Account</h5>
+                <hr class="mt-0" style="width:60px; height:2px; background:#b77a6b;">
+                <p class="mt-4">Sign In</p>
+                <p class="mt-4">View Cart</p>
+                <p class="mt-4">My Wishlist</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 text-center text-md-start">
+
+                <h5 class="mb-3">Instagram</h5>
+                <hr class="mt-0 mx-md-0 mx-auto" style="width:60px; height:2px; background:#b77a6b;">
+
+                <!-- Images Instagram -->
+                <div class="row g-2 justify-content-center justify-content-md-start">
+                    <div class="col-4">
+                        <img src="./image/ins1.png" class="img-fluid rounded" alt="Instagram 1">
+                    </div>
+                    <div class="col-4">
+                        <img src="./image/ins2.png" class="img-fluid rounded" alt="Instagram 2">
+                    </div>
+                    <div class="col-4">
+                        <img src="./image/ins3.png" class="img-fluid rounded" alt="Instagram 3">
+                    </div>
+                </div>
+
+                <p class="mt-3 text-danger">7 Days A Week — 8AM to 5PM</p>
+
+                <!-- Social icons -->
+                <div class="icoin_bas d-flex gap-3 justify-content-center justify-content-md-start">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

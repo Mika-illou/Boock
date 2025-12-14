@@ -1,0 +1,183 @@
+
+ .banner {
+    margin-top: 70px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline red;
+    color: red !important;
+
+}
+.banner {
+    background-image: url("./image/bg.jpg");
+    /* Mets ton image */
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.nav_menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: cente ;
+    text-align: center !important;
+    width: 100%;
+    
+}
+
+/* Catégories */
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories ul li {
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+/* Image du produit */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    padding: 1rem;
+}
+.product-card img {
+    height: 240px;
+    object-fit: contain;
+    margin-bottom: .75rem;
+}
+/* Optionnel : affiner l'espacement et la shadow */
+.product-card .card-body {
+    width: 100%;
+    text-align: center;
+}
+.carre{
+    width: 70px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.carre:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.forme_carre {
+    display: flex;
+    gap: 20px;
+}
+
+.forme_carre_2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.carre_2{
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carre_2:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.icoin_bas{
+    cursor: pointer;
+}
+
+
+
+@media (max-width:768px) {
+    .ARTICLE {
+        display: none;
+    }
+    .cache {
+        display: none;
+    } 
+    .principale{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    
+     }
+}
+@media (max-width:425px) {
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 270px;
+    }
+    .cache_menu{
+        display: none !important;
+    }
+    .main {
+    margin-top: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
